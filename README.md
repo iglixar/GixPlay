@@ -1,125 +1,153 @@
 <div align="center">
-  <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260107-WA0003.jpg" alt="Gixplay Logo" width="120" style="border-radius: 50%;" />
-  <h1>Gixplay</h1>
-  <p><strong>A mobile-first, YouTube-powered music streaming PWA with a pure black theme, offline capabilities, shared rooms, and deep personal analytics.</strong></p>
 
-  <p>
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-    <img src="https://img.shields.io/badge/IndexedDB-005395?style=for-the-badge&logo=sqlite&logoColor=white" />
-    <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" />
-  </p>
+<img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260107-WA0003.jpg" width="140" style="border-radius:50%" />
+
+<h1>Gixplay</h1>
+
+<p>
+A <b>mobile-first</b>, <b>YouTube-powered</b> music streaming PWA with  
+<b>shared rooms</b>, <b>local-only storage</b>, and <b>deep analytics</b>.
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Privacy-Local_Only-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Ads-None-brightgreen?style=for-the-badge" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" />
+  <img src="https://img.shields.io/badge/IndexedDB-Local-orange?style=for-the-badge" />
+</p>
+
 </div>
 
 ---
 
-## About Gixplay
+## What is Gixplay?
 
-**Gixplay** is a privacy-first, mobile-optimized music streaming Progressive Web App designed for personal and small-group use.  
-It allows users to search, play, and organize music sourced from YouTube while keeping **all personal data fully local** to the device.
+**Gixplay** is a privacy-first music player built for people who want **full control**.
 
-No accounts  
-No cloud profiles  
-No ads  
-No tracking  
+• No account  
+• No cloud sync  
+• No ads  
+• No tracking  
 
-Your playlists, listening history, analytics, and identity stay on your device.
+Everything lives **on your device**.
 
----
-
-## Key Features
-
-- **[ Streaming ] YouTube-Based Playback**  
-  Search for tracks or instantly add music using direct YouTube URLs.
-
-- **[ UI ] Pure Black OLED Interface**  
-  Minimal, distraction-free UI optimized for night usage and battery saving.
-
-- **[ Storage ] Local-Only Data**  
-  Playlists, tracks, analytics, and user identity are stored in IndexedDB / localStorage.
-
-- **[ App ] Installable Progressive Web App**  
-  Runs like a native app with offline access to saved data.
-
-- **[ Playback ] Background Audio Support**  
-  Audio continues while the app is minimized (browser dependent).
-
-- **[ Playlists ] Fast Management**  
-  Create, edit, and manage playlists with gesture-based controls.
-
-- **[ Analytics ] Listening Insights**  
-  Weekly, monthly, and yearly charts, streak tracking, and activity heatmaps.
-
-- **[ Backup ] Data Portability**  
-  Export and import the complete local library using a single file.
-
-- **[ Privacy ] Zero Tracking**  
-  No login, no telemetry, no remote analytics, no user profiling.
+You can search music, paste YouTube links, build playlists, analyze your habits,  
+and even **listen together with friends in real-time rooms**.
 
 ---
 
-## Rooms (Shared Listening)
+## Key Highlights
 
-Gixplay includes a **real-time shared room feature** that allows multiple users to listen together.
+<table>
+<tr>
+<td width="50%">
+
+### Music Playback
+- YouTube-powered streaming  
+- Paste link or search  
+- Background audio support  
+- Gesture-based controls  
+
+</td>
+<td width="50%">
+
+### Clean UI
+- Pure black OLED theme  
+- Minimal & distraction-free  
+- Mobile-first layout  
+- Fast and smooth animations  
+
+</td>
+</tr>
+</table>
+
+---
+
+## Shared Rooms (Watch & Listen Together)
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/placeholder/room-demo.png" width="80%" />
+</div>
 
 ### How Rooms Work
 
-- Users enter a **display name** (stored locally on their device)
-- A room can be **created or joined using a short code**
-- Any participant can:
-  - Paste a YouTube URL
-  - Start playback
-  - Pause or resume the current track
-  - Add songs to the queue
+- Enter a **display name** (saved locally)
+- Create or join a room using a **short code**
+- Paste a YouTube URL to play music instantly
+- Everyone hears the **same track, same time**
 
-There is **no host system** — every participant has equal control.
+### Real-Time Sync
 
-### Playback Sync
-
-- The currently playing track
-- Playback state (play / pause)
+- Track changes
+- Play / pause
 - Seek position
 - Queue order
 
-are synchronized across all connected devices in real time.
+Everything syncs live across all devices.
 
-If one user:
-- Changes the track
-- Seeks to a new timestamp
-- Pauses or resumes playback  
-
-All connected devices update automatically.
-
-### Queue System
-
-- If a track is already playing, newly added tracks go into a shared queue
-- When the current song ends, the next track auto-plays
-- If no song is playing, users can manually select a queued track to start playback
-
-### Live Activity Log
-
-- Actions like *“played a song”*, *“added to queue”*, *“paused playback”* appear in a live log
-- Each user name is color-coded consistently
-- Logs exist only for the session and are not permanently stored
+No host.  
+No permissions.  
+Everyone is equal.
 
 ---
 
-## Architecture Overview
+## Shared Queue System
 
-- **Search & Metadata**  
-  Uses public YouTube data endpoints for discovery and metadata.
+- If a song is already playing → new songs go into queue
+- When a song ends → next song auto-plays
+- If no song is playing → anyone can tap a queued song to start
 
-- **Playback Engine**  
-  Controlled YouTube iframe player used for streaming and background audio.
+Smooth, simple, and conflict-free.
 
-- **Local Database**  
-  IndexedDB stores tracks, playlists, analytics, and playback history.
+---
 
-- **Room Sync Engine**  
-  Lightweight real-time database syncs room state (track, position, status, queue).
+## Live Activity Log
 
-- **Analytics System**  
-  Playback events are processed locally to generate insights without external services.
+- See who played what
+- Who added to queue
+- Who paused or skipped
+
+Each user name gets a **consistent random color**  
+Logs are session-only and never stored permanently.
+
+---
+
+## Personal Analytics
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/placeholder/analytics-demo.png" width="80%" />
+</div>
+
+- Daily / weekly / yearly listening charts
+- Listening streaks
+- Heatmap activity view
+- Top tracks & artists
+- Fully local processing
+
+No cloud analytics.  
+No tracking pixels.
+
+---
+
+## Local-Only Storage
+
+- Playlists
+- Tracks
+- History
+- Analytics
+- User identity
+
+All stored in:
+- IndexedDB
+- localStorage
+
+You can export or import everything anytime.
 
 ---
 
@@ -129,19 +157,33 @@ All connected devices update automatically.
 - iOS browsers
 - Desktop browsers
 - Installable PWA
-- Trusted Web Activity (TWA) compatible
+- Trusted Web Activity (TWA) ready
+
+---
+
+## Tech Stack
+
+| Layer | Tech |
+|-----|-----|
+Frontend | React + Hooks  
+Styling | Tailwind CSS  
+Playback | YouTube Iframe Player  
+Storage | IndexedDB  
+Sync | Firebase Realtime DB  
+Charts | Recharts  
+App | Progressive Web App  
 
 ---
 
 ## Usage Notice
 
-Gixplay is intended for **personal and educational use**.
+Gixplay is for **personal and educational use**.
 
-- It does not host media
-- It does not redistribute content
-- It relies on publicly accessible YouTube playback mechanisms
+- No media is hosted
+- No content is redistributed
+- Playback relies on public web embeds
 
-All rights belong to their respective content owners.
+All content belongs to respective owners.
 
 ---
 
@@ -153,4 +195,9 @@ All rights belong to their respective content owners.
 
 ---
 
-© Gixplay — Personal music, shared moments, full control.
+<div align="center">
+
+<b>Gixplay</b>  
+Personal music • Shared rooms • Full control
+
+</div>
