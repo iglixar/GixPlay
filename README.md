@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260107-WA0003.jpg" alt="Gixplay Logo" width="120" style="border-radius: 50%;" />
   <h1>Gixplay</h1>
-  <p><strong>A mobile-first, YouTube-powered music streaming PWA with a pure black theme, offline capabilities, and deep personal analytics.</strong></p>
+  <p><strong>A mobile-first, YouTube-powered music streaming PWA with a pure black theme, offline capabilities, shared rooms, and deep personal analytics.</strong></p>
 
   <p>
     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
@@ -15,45 +15,92 @@
 
 ## About Gixplay
 
-**Gixplay** is a privacy-first, mobile-optimized music streaming Progressive Web App designed for personal use.  
-It allows users to search, play, and organize music sourced from YouTube while keeping **all data fully local** to the device.
+**Gixplay** is a privacy-first, mobile-optimized music streaming Progressive Web App designed for personal and small-group use.  
+It allows users to search, play, and organize music sourced from YouTube while keeping **all personal data fully local** to the device.
 
 No accounts  
-No cloud sync  
+No cloud profiles  
+No ads  
 No tracking  
 
-Your playlists, history, and analytics never leave your device.
+Your playlists, listening history, analytics, and identity stay on your device.
 
 ---
 
 ## Key Features
 
 - **[ Streaming ] YouTube-Based Playback**  
-  Search for music or add tracks via direct YouTube links.
+  Search for tracks or instantly add music using direct YouTube URLs.
 
 - **[ UI ] Pure Black OLED Interface**  
-  Battery-friendly, distraction-free interface optimized for night usage.
+  Minimal, distraction-free UI optimized for night usage and battery saving.
 
 - **[ Storage ] Local-Only Data**  
-  All playlists, tracks, and listening history are stored in IndexedDB.
+  Playlists, tracks, analytics, and user identity are stored in IndexedDB / localStorage.
 
 - **[ App ] Installable Progressive Web App**  
   Runs like a native app with offline access to saved data.
 
 - **[ Playback ] Background Audio Support**  
-  Music continues while the app is minimized (browser dependent).
+  Audio continues while the app is minimized (browser dependent).
 
 - **[ Playlists ] Fast Management**  
-  Create and manage playlists using gesture-based controls.
+  Create, edit, and manage playlists with gesture-based controls.
 
 - **[ Analytics ] Listening Insights**  
-  Weekly, monthly, yearly charts with streaks and activity heatmaps.
+  Weekly, monthly, and yearly charts, streak tracking, and activity heatmaps.
 
 - **[ Backup ] Data Portability**  
-  Export and import the full library using a single file.
+  Export and import the complete local library using a single file.
 
 - **[ Privacy ] Zero Tracking**  
-  No login, no ads, no telemetry, no remote database.
+  No login, no telemetry, no remote analytics, no user profiling.
+
+---
+
+## Rooms (Shared Listening)
+
+Gixplay includes a **real-time shared room feature** that allows multiple users to listen together.
+
+### How Rooms Work
+
+- Users enter a **display name** (stored locally on their device)
+- A room can be **created or joined using a short code**
+- Any participant can:
+  - Paste a YouTube URL
+  - Start playback
+  - Pause or resume the current track
+  - Add songs to the queue
+
+There is **no host system** — every participant has equal control.
+
+### Playback Sync
+
+- The currently playing track
+- Playback state (play / pause)
+- Seek position
+- Queue order
+
+are synchronized across all connected devices in real time.
+
+If one user:
+- Changes the track
+- Seeks to a new timestamp
+- Pauses or resumes playback  
+
+All connected devices update automatically.
+
+### Queue System
+
+- If a track is already playing, newly added tracks go into a shared queue
+- When the current song ends, the next track auto-plays
+- If no song is playing, users can manually select a queued track to start playback
+
+### Live Activity Log
+
+- Actions like *“played a song”*, *“added to queue”*, *“paused playback”* appear in a live log
+- Each user name is color-coded consistently
+- Logs exist only for the session and are not permanently stored
 
 ---
 
@@ -63,19 +110,23 @@ Your playlists, history, and analytics never leave your device.
   Uses public YouTube data endpoints for discovery and metadata.
 
 - **Playback Engine**  
-  Streams audio through a controlled YouTube iframe player optimized for background usage.
+  Controlled YouTube iframe player used for streaming and background audio.
 
 - **Local Database**  
-  IndexedDB stores tracks, playlists, and analytics for instant access and offline continuity.
+  IndexedDB stores tracks, playlists, analytics, and playback history.
+
+- **Room Sync Engine**  
+  Lightweight real-time database syncs room state (track, position, status, queue).
 
 - **Analytics System**  
-  Playback events are processed locally to generate charts and usage insights.
+  Playback events are processed locally to generate insights without external services.
 
 ---
 
 ## Platform Support
 
-- Mobile browsers (Android / iOS)
+- Android browsers
+- iOS browsers
 - Desktop browsers
 - Installable PWA
 - Trusted Web Activity (TWA) compatible
@@ -84,8 +135,13 @@ Your playlists, history, and analytics never leave your device.
 
 ## Usage Notice
 
-Gixplay is intended for **personal and educational use**.  
-It does not host, redistribute, or modify media content and relies on publicly accessible web playback mechanisms.
+Gixplay is intended for **personal and educational use**.
+
+- It does not host media
+- It does not redistribute content
+- It relies on publicly accessible YouTube playback mechanisms
+
+All rights belong to their respective content owners.
 
 ---
 
@@ -97,4 +153,4 @@ It does not host, redistribute, or modify media content and relies on publicly a
 
 ---
 
-© Gixplay — Personal music, full control.
+© Gixplay — Personal music, shared moments, full control.
