@@ -1,328 +1,251 @@
 <div align="center">
-  <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260107-WA0003.jpg" alt="Gixplay Logo" width="120" style="border-radius: 50%; border: 2px solid #38B2AC;" />
+  <img src="https://ik.imagekit.io/xcd12nkc1/ic_app_icon.png" alt="Gixplay Logo" width="120" style="border-radius: 28px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);" />
   <h1>GIXPLAY</h1>
-  <p><strong>A mobile-first, multi-source music streaming PWA with a pure black theme, offline capabilities, shared rooms, and deep personal analytics.</strong></p>
-  <p>Universal Playback Engine with Aggressive Background Audio Support</p>
+  <p><strong>A sleek, local-first cross-platform music streaming app for Web, Desktop (PWA), and Android. Organize, sync, and listen with zero ads.</strong></p>
+
+> 🟦 **<span style="color:white">BACKGROUND PLAYBACK</span>** &nbsp;&nbsp;&nbsp; 🟩 **<span style="color:white">OFFLINE DOWNLOAD</span>** &nbsp;&nbsp;&nbsp; 🟥 **<span style="color:white">AD FREE</span>** &nbsp;&nbsp;&nbsp; 🟪 **<span style="color:white">LISTEN WITH FRIENDS</span>** &nbsp;&nbsp;&nbsp; 🟨 **<span style="color:white">NO LOGIN REQUIRED</span>**
+
+
+
 
   <p>
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-    <img src="https://img.shields.io/badge/IndexedDB-005395?style=for-the-badge&logo=sqlite&logoColor=white" />
-    <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" />
+    <img src="https://img.shields.io/badge/Star_This_Repo-238636?style=for-the-badge&logo=github&logoColor=white" alt="Stars" />
+    <img src="https://img.shields.io/github/stars/X0U8/Gixplay?style=for-the-badge&color=yellow" alt="Stars Count" />
   </p>
+
+  <p align="center">
+    <strong>Source code will be revealed at 300 stars.</strong>
+  </p>
+
+  <div align="center" style="max-width: 600px; margin: 20px 0;">
+    <img src="https://starchart.cc/X0U8/Gixplay.svg?variant=adaptive" alt="Stargazers over time" width="100%" />
+  </div>
 </div>
 
-<hr style="border: 1px solid #38B2AC;" />
+<hr style="border: 1px solid #3b82f6;" />
 
-## About Gixplay
-
-**Gixplay** is a privacy-first, optimized music and audio streaming Progressive Web App. It allows users to search, play, and organize music from multiple global sources while keeping **all personal data fully local** to the device.
-
-| NO ACCOUNTS | NO CLOUD PROFILES | NO ADS | NO TRACKING |
-| :---: | :---: | :---: | :---: |
-
----
-
-### Installation Options
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-<b>PWA Install (Windows, macOS, iPhone)</b><br>
-<small>Native-like experience with background audio support</small><br><br>
-
-<img src="https://ik.imagekit.io/sbsjhivv8/Download.gif" width="260" />
-
-<br><br>
-Open site → Install from browser menu
-
-</td>
-
-<td align="center" width="50%">
-
-<b>Android App (Play Store)</b><br>
-<small>Join testing program to install</small><br><br>
-
-<!-- Play Store icon -->
-<a href="https://tester.glixar.com" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" width="180" />
-</a>
-
-<br><br>
-
-<!-- Phone image -->
-<a href="https://tester.glixar.com" target="_blank">
-  <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260119-WA0000.jpg" width="260" />
-</a>
-
-<br><br>
-
-<!-- Text link -->
-<a href="https://tester.glixar.com" target="_blank" style="color:#ffffff; text-decoration:underline;">
-  Become a tester now
-</a>
-
-<br><br>
-
-</td>
-</tr>
-</table>
-
-</div>
----
-
-<div align="center">
-
-### Search & Create Playlists
-
-<img src="https://ik.imagekit.io/sbsjhivv8/VN20260111_105716-ezgif.com-video-to-gif-converter.gif" width="260" />
-
-</div>
-
----
-
-<div align="center">
-
-### Source code will be revealed at **300 stars**
-
-[![Star this repo](https://img.shields.io/badge/⭐_Star_This_Repo-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/X0U8/Gixplay)
-
-![Stars](https://img.shields.io/github/stars/X0U8/Gixplay-?style=for-the-badge&color=yellow)
-
-
-
-## Stars over time
-[![Stargazers over time](https://starchart.cc/X0U8/Gixplay.svg?variant=adaptive)](https://starchart.cc/X0U8/Gixplay)
-
-</div>
-
-<hr style="border: 1px solid #38B2AC;" />
-
-### Feature Guide 
+### Platform Support
 
 <div align="center">
 <table>
   <tr>
+    <td align="center" width="50%">
+      <b>PWA (Windows, macOS, iOS)</b><br>
+      <small>Native-like background playback experience.</small><br><br>
+      <img src="https://ik.imagekit.io/sbsjhivv8/Download.gif" width="220" alt="PWA Install" />
+    </td>
+    <td align="center" width="50%">
+      <b>Android App (Google Play)</b><br>
+      <small>Join our open Google Play testing program.</small><br><br>
+      <a href="https://testers.glixar.com" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" width="160" alt="Play Store" />
+      </a><br><br>
+      <a href="https://testers.glixar.com" target="_blank">
+        <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260119-WA0000.jpg" width="220" alt="Android App Preview" />
+      </a>
+    </td>
+  </tr>
+</table>
+</div>
+
+<hr style="border: 1px solid #3b82f6;" />
+
+### Feature Guide
+
+<div align="center">
+<table>
+
+  <!-- Dynamic Themes -->
+  <tr>
     <td width="35%" align="center">
-      <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260111-WA0004.jpg" width="100%">
+      <img src="https://ik.imagekit.io/xcd12nkc1/Screenshot%202026-07-27%20at%209.17.54%E2%80%AFPM.png" width="48%" alt="Light Theme">
+      <img src="https://ik.imagekit.io/xcd12nkc1/Screenshot%202026-07-27%20at%209.18.21%E2%80%AFPM.png" width="48%" alt="Dark Theme">
     </td>
     <td>
-      <strong style="color:#9CA3AF">Stable Search System</strong>
+      <strong>Dynamic Themes</strong>
       <ul>
-  <li>The stable page uses high-quality APIs for searching audio and video.</li>
-  <li>To control costs and quotas, this page is limited to one search per hour.</li>
-  <li>For unlimited discovery, switch to the secondary search server via the top-right button.</li>
-  <li><b>Direct Import:</b> Paste a direct URL from supported platforms into the input field to fetch and add tracks instantly.</li>
+        <li>Responsive light and dark modes with dedicated accent colors.</li>
+        <li>OLED dark theme with red accent color.</li>
+        <li>Adaptive light theme with green accent color.</li>
       </ul>
     </td>
   </tr>
 
+  <!-- Desktop View -->
   <tr>
     <td align="center">
-      <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260118-WA0000.jpg?updatedAt=1768674900411" width="100%">
+      <img src="https://ik.imagekit.io/xcd12nkc1/Screenshot%202026-07-27%20at%209.22.40%E2%80%AFPM.png" width="100%" alt="Desktop Layout">
     </td>
     <td>
-      <strong>Get Popular Songs (Trending)</strong>
+      <strong>Responsive Desktop View</strong>
       <ul>
-  <li>Discover what the world is listening to by clicking the <b>Refresh icon</b> on the top right corner.</li>
-  <li>This feature fetches the currently most-listened music and trending tracks directly from global sources.</li>
-  <li><b>Limit:</b> Refreshing is limited to <b>once every 10 minutes</b> to ensure stability and up-to-date results.</li>
-  <li>Instantly play or add these popular hits to your local playlists with one tap.</li>
-</ul>
+        <li>Specially optimized layouts for large screen monitors, laptops, and tablets.</li>
+        <li>Responsive cards and sidebars adapt seamlessly to any resolution.</li>
+      </ul>
     </td>
   </tr>
 
+  <!-- Search & Discovery -->
   <tr>
     <td align="center">
-      <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260111-WA0002.jpg" width="100%">
+      <img src="https://ik.imagekit.io/xcd12nkc1/Screenshot%202026-07-27%20at%209.20.25%E2%80%AFPM.png" width="100%" alt="Search Interface">
     </td>
     <td>
-      <strong>Secondary Search Server</strong>
+      <strong>Search & Discovery</strong>
       <ul>
-  <li>A free, Python-powered backend for unlimited searches by song or artist name.</li>
-  <li><b>Self-Waking Server:</b> If it shows "Offline," simply search and wait 30-40 seconds. The server wakes up automatically to save costs.</li>
-  <li>If traffic is extremely high, please switch back to the Stable Search page.</li>
-</ul>
+        <li>Includes a trending songs feed, custom discovery cards, and an AI overlay button on top.</li>
+        <li>Failover search servers to ensure stable results at all times.</li>
+      </ul>
     </td>
   </tr>
 
+  <!-- Trending Songs -->
   <tr>
     <td align="center">
-      <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260111-WA0003.jpg" width="100%">
+      <img src="https://ik.imagekit.io/xcd12nkc1/Screenshot%202026-07-27%20at%209.21.34%E2%80%AFPM.png" width="100%" alt="Trending Songs">
     </td>
     <td>
-      <strong>Anti-Abuse Verification</strong>
+      <strong>Trending Songs Feed</strong>
       <ul>
-  <li>To keep the service free and prevent bot abuse, a quick math question may appear before processing a search.</li>
-  <li>Once verified, you can add music directly to your local playlists.</li>
-        </ul>
+        <li>Explore global charts and top-listened songs across different regions.</li>
+        <li>Single-tap playback and instant playlist addition.</li>
+      </ul>
     </td>
   </tr>
 
+  <!-- Playlists -->
   <tr>
     <td align="center">
-      <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260118-WA0001.jpg?updatedAt=1768674900327" width="100%">
-    </td>
-    <td>
-      <strong>Listening History</strong>
-      <ul>
-  <li>Every song you play automatically appears on your <b>History Page</b> for quick access.</li>
-  <li>Users can directly replay music or view details of past tracks without searching again.</li>
-  <li><b>Privacy Controls:</b> In the settings, you can delete specific entries, clear your entire history, or <b>pause history tracking</b> completely.</li>
-  <li>Like all other data, your history is stored 100% locally on your device.</li>
-</ul>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center">
-      <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260111-WA0005.jpg" width="100%">
+      <img src="https://ik.imagekit.io/xcd12nkc1/Screenshot%202026-07-27%20at%209.26.25%E2%80%AFPM.png" width="100%" alt="Playlists Page">
     </td>
     <td>
       <strong>Smart Playlists</strong>
       <ul>
-  <li>Add tracks with a single tap using the <b>+ icon</b> on search results or the player screen.</li>
-  <li>Everything is stored via <b>IndexedDB</b> on your device for total privacy.</li>
-  <li>Includes Shuffle, Repeat, and standard loop modes.</li>
-</ul>
+        <li>Supports up to 200 tracks in a single playlist.</li>
+        <li>Create custom lists, edit titles, and organize your music library.</li>
+      </ul>
     </td>
   </tr>
 
+  <!-- One-Click Import -->
   <tr>
     <td align="center">
-      <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260112-WA0003.jpg" width="100%">
+      <img src="https://ik.imagekit.io/xcd12nkc1/Screenshot%202026-07-27%20at%209.31.38%E2%80%AFPM.png" width="100%" alt="Playlist Import">
     </td>
     <td>
-      <strong>Data Portability (Sharing)</strong>
+      <strong>One-Click Import</strong>
       <ul>
-  <li>Share playlists by exporting them as JSON strings or .txt files.</li>
-  <li>To import, simply paste the code or upload the file into a new playlist.</li>
-  <li>This allows you to move your library across devices without a cloud account.</li>
-</ul>
+        <li>Import any community or external playlist with a single click.</li>
+        <li>Load public lists directly into your local database.</li>
+      </ul>
     </td>
   </tr>
 
+  <!-- Global Playlists -->
   <tr>
     <td align="center">
-      <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260112-WA0004.jpg" width="100%">
+      <img src="https://ik.imagekit.io/xcd12nkc1/Screenshot%202026-07-28%20at%2012.05.46%E2%80%AFAM.png" width="100%" alt="Global Feed">
     </td>
     <td>
-      <strong>Shared Listening Rooms</strong>
+      <strong>Global Playlists Feed</strong>
       <ul>
-  <li>Create or join a room using a short code to listen with friends in real-time.</li>
-  <li>A live activity log shows exactly what’s happening (joins, plays, pauses).</li>
-  <li>Synced playback ensures everyone hears the same beat at the same time.</li>
-</ul>
+        <li>Explore verified playlists shared by listeners around the world.</li>
+        <li>Find targeted collections for music, podcasts, speeches, and standup comedy.</li>
+      </ul>
     </td>
   </tr>
 
+  <!-- Synced Rooms -->
   <tr>
     <td align="center">
-      <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260112-WA0005.jpg" width="100%">
+      <img src="https://ik.imagekit.io/xcd12nkc1/Screenshot%202026-07-28%20at%2012.08.33%E2%80%AFAM.png" width="100%" alt="Listening Rooms">
     </td>
     <td>
-      <strong>Room Features</strong>
+      <strong>Synced Listening Rooms</strong>
       <ul>
-  <li><b>Inbuilt Chat:</b> Communicate with room members without leaving the app.</li>
-  <li><b>Queue Control:</b> Anyone can add URLs to the shared queue.</li>
-  <li><b>No Limits:</b> No cap on members or the number of songs queued.</li>
-  <li><b>Clean Exit:</b> Use the delete button to close rooms when finished.</li>
-</ul>
+        <li>Listen and watch videos together with friends in real-time.</li>
+        <li>Collaborative queue management and integrated room chat.</li>
+      </ul>
     </td>
   </tr>
 
+  <!-- Analytics -->
   <tr>
     <td align="center">
-      <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260112-WA0008.jpg" width="100%">
+      <img src="https://ik.imagekit.io/xcd12nkc1/Screenshot%202026-07-28%20at%2012.10.09%E2%80%AFAM.png" width="100%" alt="Listening Analytics">
     </td>
     <td>
-      <strong>Deep Personal Analytics</strong>
+      <strong>Cleaner Analytics</strong>
       <ul>
-  <li><b>Insightful Stats:</b> Tracks Total Plays (with 30s cooldown for accuracy), Active Days, and Joining Date.</li>
-  <li><b>Visual Habits:</b> Interactive line graphs and yearly heatmaps showing your listening frequency.</li>
-  <li><b>Top Content:</b> Automated ranking of your Top 10 tracks and artists based on local history.</li>
-</ul>
+        <li>Track listening habits, total playtime, active streaks, and top tracks.</li>
+        <li>Visualizes listening frequency with an annual GitHub-style heatmap.</li>
+      </ul>
     </td>
   </tr>
 
+  <!-- AI Recommendations -->
   <tr>
     <td align="center">
-      <img src="https://ik.imagekit.io/sbsjhivv8/IMG-20260112-WA0009.jpg" width="100%">
+      <img src="https://ik.imagekit.io/xcd12nkc1/Screenshot%202026-07-28%20at%2012.11.19%E2%80%AFAM.png" width="100%" alt="AI Recommendations">
     </td>
     <td>
-      <strong>Secure Analytics Export</strong>
+      <strong>AI Recommendations Assistant</strong>
       <ul>
-  <li>Export your entire history as an encrypted string to prevent data tampering.</li>
-  <li>Moving to a new phone? Just import your backup file to restore your heatmaps and play counts.</li>
-</ul>
+        <li>Discover similar songs, speech recordings, or podcasts tailored to your listening history.</li>
+        <li>Generative recommendations based on your local activity logs.</li>
+      </ul>
     </td>
   </tr>
+
+  <!-- Offline Downloads -->
+  <tr>
+    <td align="center">
+      <img src="https://ik.imagekit.io/xcd12nkc1/Screenshot%202026-07-28%20at%2012.14.16%E2%80%AFAM.png" width="100%" alt="Offline Downloads">
+    </td>
+    <td>
+      <strong>Offline Downloads</strong>
+      <ul>
+        <li>Download audio tracks directly to your device storage to stream offline.</li>
+        <li>Help keep backend downloading servers online by supporting development.</li>
+      </ul>
+    </td>
+  </tr>
+
+  <!-- Sync Feature -->
+  <tr>
+    <td align="center">
+      <img src="https://ik.imagekit.io/xcd12nkc1/Screenshot%202026-07-28%20at%2012.16.48%E2%80%AFAM.png" width="100%" alt="Cloud Sync">
+    </td>
+    <td>
+      <strong>Manual Cloud Sync</strong>
+      <ul>
+        <li>Synchronize your local playlists, history, and statistics manually to the cloud.</li>
+        <li>Restore library setup across multiple browser screens or mobile devices instantly.</li>
+      </ul>
+    </td>
+  </tr>
+
 </table>
-
-<hr style="border: 1px solid #38B2AC;" />
-
 </div>
 
-### Key Features
+<hr style="border: 1px solid #3b82f6;" />
 
-| Category | Feature Detail |
-| :--- | :--- |
-| **Streaming** | **Multi-Source Playback**: Universal search and direct URL importing. |
-| **Discovery** | **Trending Music**: Get popular songs with a 10-minute refresh cooldown. |
-| **History** | **Local Playback History**: View past plays with full delete/pause privacy settings. |
-| **UI** | **Pure Black OLED Interface**: Minimal, distraction-free UI optimized for battery saving. |
-| **Storage** | **Local-First**: Playlists, history, and analytics stay in your device storage. |
-| **App** | **PWA & APK**: Full desktop and mobile support with offline data access. |
-| **Playback** | **Aggressive Background Audio**: Android APK maintains playback even when closed or on calls. |
-| **Analytics** | **Privacy-Focused Insights**: Streak tracking and activity heatmaps generated locally. |
-| **Privacy** | **Zero Tracking**: No telemetry, no remote profiling, no hidden scripts. |
+### Sync & Local Architecture
+* **Local-First Database:** Libraries, statistics, and history are kept secure and local using IndexedDB.
+* **Manual Cloud Sync:** Sync playlists and analytics to the cloud when needed. Sync is manual to preserve the local-first structure.
+* **Decentralized Rooms:** Sync playback status, queues, and chat messages in real-time rooms.
 
-<hr style="border: 1px solid #38B2AC;" />
+---
 
-## Rooms (Shared Listening)
+### Support Gixplay
 
-### How Rooms Work
-* No host system — every participant has equal control over the music.
-* Real-time synchronization of:
-  * Playback state (Play/Pause/Seek)
-  * Queue order and current track
-* **Live Activity Log:** Color-coded logs show real-time actions.
+* **Building this project solo for few year now, if you love this project , can i get a coffee ?** 
 
-<hr style="border: 1px solid #38B2AC;" />
 
-## Architecture Overview
+Running the downloading and crawling backend servers incurs ongoing hosting costs. If you enjoy using Gixplay, please consider supporting development.
 
-> **Metadata Engine** > Scrapes and fetches trending and search data from global endpoints.
-
-> **Local DB** > Uses IndexedDB for high-performance storage of large libraries, history, and analytics.
-
-> **Sync Engine** > Lightweight real-time socket/database layer for room coordination.
-
-> **Encryption** > Custom local encryption for exported analytics data.
-
-<hr style="border: 1px solid #38B2AC;" />
-
-## Platform Support
-
-* **Android** (APK for aggressive background playback / Browser)
-* **iOS** (PWA support for background play)
-* **Windows & macOS** (Full PWA support)
-
-<hr style="border: 1px solid #38B2AC;" />
-
-## Usage Notice
-Gixplay is intended for **personal and educational use**. It does not host media, does not redistribute content, and relies on publicly accessible playback mechanisms. All rights belong to their respective content owners.
-
-## Support
-
-If you find this project helpful, consider supporting the development:
-
-[![Buy Me A Chai](https://buymeachai.ezee.li/assets/images/buymeachai-button.png)](https://buymeachai.ezee.li/x0u8)
-
+[![Support on Ko-fi](https://img.shields.io/badge/Support_on_Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/glixar)
 
 <div align="center">
-  <p>© Gixplay — Personal music, shared moments, full control.</p>
+  <p>© Gixplay</p>
 </div>
